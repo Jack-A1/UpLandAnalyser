@@ -1,0 +1,73 @@
+﻿@using UpLandDataAnalyser_Web.Features.Fresno
+@model FresnoVm
+
+@{
+    //ViewData["Title"] = "Fresno page";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<h1>Fresno Demo</h1>
+
+<div class="card borderless-card">
+    <div class="card-block primary-breadcrumb">
+        <div class="breadcrumb-header">
+            <h5>Fresno - Woodward Park</h5>
+            <span>Standard Collection - Own any 3 properties in the WoodWard Park Neighborhood.</span>
+        </div>
+        <div class="page-header-breadcrumb d-none">
+            <ul class="breadcrumb-title m-t-10">
+                <li class="breadcrumb-item">
+                    <a href="#!">
+                        <i class="icofont icofont-home"></i>
+                    </a>
+                </li>
+                <li class="breadcrumb-item">
+                    <a href="#!">Breadcrumb</a>
+                </li>
+                <li class="breadcrumb-item">
+                    <a href="#!">Caption Breadcrumb</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="row">
+
+    <div class="col-md-6 col-xl-3">
+        <div class="card bg-c-blue order-card">
+            <div class="card-block">
+                <h6 class="m-b-20">Avg Selling Price (30 Days)</h6>
+                <h2 class="text-right"><i class="ti-shopping-cart f-left"></i><span>$42,562</span></h2>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6 col-xl-3">
+        <div class="card bg-c-green order-card">
+            <div class="card-block">
+                <h6 class="m-b-20">Avg Selling Price (7 Days)</h6>
+                <h2 class="text-right"><i class="ti-shopping-cart f-left"></i><span>$42,562</span></h2>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6 col-xl-3">
+        <div class="card bg-c-yellow order-card">
+            <div class="card-block">
+                <h6 class="m-b-20">Amount Sold (Last 7 Days)</h6>
+                <h2 class="text-right"><i class="ti-reload f-left"></i><span>$42,562</span></h2>
+            </div>
+        </div>
+    </div>
+    <!-- Hidden -->
+    <div class="col-md-6 col-xl-3 d-none">
+        <div class="card bg-c-pink order-card">
+            <div class="card-block">
+                <h6 class="m-b-20">Total Profit</h6>
+                <h2 class="text-right"><i class="ti-wallet f-left"></i><span>$9,562</span></h2>
+            </div>
+        </div>
+    </div>
+
+</div>
